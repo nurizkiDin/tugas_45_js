@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas 45 - JS</title>
+    </head>
+    <body>
+        <button onclick="hreflokasi()">HREF Lokasi</button>
+        <p></p>
+
+        <script>
+            function hreflokasi(){
+                var x = location.href
+                var y = document.getElementsByTagName('p')
+                y.item(0).innerHTML = x
+            }
+        </script>
+    </body>
+</html>
